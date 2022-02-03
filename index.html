@@ -14,11 +14,11 @@
         <form action="" method="get">
             <div class="form-line">
                 <p>Nombre del Paciente</p>
-                <input type="text" name="nombrePaciente" placeholder="Juan Pérez" >
+                <input type="text" name="nombrePaciente" placeholder="Cachupin" >
             </div>
             <div class="form-line">
                 <p>Nombre Tutor</p>
-                <input type="text" name="nombreTutor">
+                <input type="text" name="nombreTutor" placeholder="Juan Pérez">
             </div>
             <div class="form-line">
                 <p>Fecha de Nacimiento</p>
@@ -26,7 +26,13 @@
             </div>
             <div class="form-line">
                 <p>Especie</p>
-                <input type="text" name="especie">
+                <label for="especie">Elija la especie:</label>
+                    <select id="especie" name="especie">
+                    <option value="canino">Canino</option>
+                    <option value="felino">Felino</option>
+                    <option value="equino">Equino</option>
+                    <option value="roedor">Roedor</option>
+                    </select>
             </div>
             <div class="form-line">
                 <p>Raza</p>
