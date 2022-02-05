@@ -5,7 +5,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,112,0.482230392
 
 body {
     background-image:    url(dog-horse.jpg);
-    background-size:     cover;
+    background-size:     1920px, 1080px;
     background-repeat:   no-repeat;
     background-position: center center;
 }
@@ -18,9 +18,47 @@ div.formulario {
     background-color: aquamarine;
     padding: 10px;
     margin: auto;
-    width: 30%;
+    width: 40%;
     border-radius: 20px;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    div.formulario {
+        background-color: aquamarine;
+        padding: 10px;
+        margin: auto;
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+div #genero > p {
+    display: inline-block;
+}
+
+div #genero > input #macho {
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+}
+
+div #genero > input #hembra {
+    display: inline-block;
+}
+
+div #esterilizado > p {
+    display: inline-block;
+}
+
+div #esterilizado > input #si {
+    display: inline-block;
+    border-width: 2px;
+    border-color: black;
+}
+
+div #esterilizado > input #no {
+    display: inline-block;
 }
 
 div > form {
@@ -30,7 +68,7 @@ div > form {
 
 div > form > div > button {
     margin: auto;
-    width: 50%;
+    width: auto;
 }
 
 div.form-line {
@@ -44,3 +82,40 @@ ul{
     display: inline-block;
     margin: 0 auto;
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+input[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
