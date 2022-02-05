@@ -1,4 +1,4 @@
-body{
+body {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,112,0.4822303921568627) 0%, rgba(9,122,114,1) 0%, rgba(0,212,255,1) 76%);
 }
@@ -14,33 +14,33 @@ p{
     font-size: 20px;
 }
 
-h1{
-    padding-top: 1rem;
-    text-align: center;
-}
 div.formulario {
     background-color: aquamarine;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
-    width: 50%;
+    width: 30%;
     border-radius: 20px;
     text-align: center;
 }
 
-div > form{
+div > form {
     margin: auto;
     width: 50%;
 }
 
-div > form > div > button{
+div > form > div > button {
     margin: auto;
     width: 50%;
 }
 
-div.form-line{
+div.form-line {
     margin-bottom: 10px;
 }
 
-input{
-    
+ul{
+    padding-left: 50px;
+    width: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 auto;
 }
