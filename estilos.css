@@ -3,13 +3,20 @@ body{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,112,0.4822303921568627) 0%, rgba(9,122,114,1) 0%, rgba(0,212,255,1) 76%);
 }
 
+body {
+    background-image:    url(dog-horse.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
 p{
     font-size: 20px;
 }
 
 h1{
-    margin: auto;
-    width: 50%;
+    padding-top: 1rem;
+    text-align: center;
 }
 div.formulario {
     background-color: aquamarine;
@@ -17,6 +24,7 @@ div.formulario {
     margin: auto;
     width: 50%;
     border-radius: 20px;
+    text-align: center;
 }
 
 div > form{
