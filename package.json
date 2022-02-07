@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "name": "desafio_veterinaria",
+  "description": "Página de registro con formulario para inscripción de fichas de mascotas.",
+  "version": "1.0.0",
+  "main": "dinamica.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiP00/desafio_veterinaria.git"
+  },
+  "author": "BiP00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BiP00/desafio_veterinaria/issues"
+  },
+  "homepage": "https://github.com/BiP00/desafio_veterinaria#readme"
+}
