@@ -33,12 +33,24 @@ div.formulario {
     }
 }
 
-.card {
+.card-index {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+div.card {
+    margin: auto;
+    margin-left: 20px;
+    width: 50%;
     padding: 10px;
     margin-top: 40px;
+    display: inline-block;
+}
+
+div.card > div {
+    text-align: center;
 }
 
 div #genero > p {
