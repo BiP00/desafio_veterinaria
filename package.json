@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0"
-  },
   "name": "desafio_veterinaria",
   "description": "Página de registro con formulario para inscripción de fichas de mascotas.",
   "version": "1.0.0",
